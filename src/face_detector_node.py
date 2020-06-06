@@ -25,7 +25,7 @@ class face_detector:
     
     try:
       img = self.bridge.imgmsg_to_cv2(rgb_data, "bgr8")
-      face_cascade = cv2.CascadeClassifier('/opt/ros/kinetic/share/OpenCV-3.3.1-dev/haarcascades/haarcascade_frontalface_default.xml')
+      face_cascade = cv2.CascadeClassifier('/home/bloisi/catkin_ws/src/unibas_face_detector/haarcascade/haarcascade_frontalface_default.xml')
       gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
       faces = face_cascade.detectMultiScale(gray, 1.3, 5)
       for (x,y,w,h) in faces:
