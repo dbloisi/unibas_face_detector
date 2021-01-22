@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(unibas_distance_from_camera)
+project(unibas_face_detector)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)

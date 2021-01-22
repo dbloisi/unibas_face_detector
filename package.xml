@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>unibas_distance_from_camera</name>
+  <name>unibas_face_detector</name>
   <version>0.0.0</version>
-  <description>The unibas_distance_from_camera package</description>
+  <description>The unibas_face_detector package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
